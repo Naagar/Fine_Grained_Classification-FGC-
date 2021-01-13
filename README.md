@@ -6,6 +6,11 @@ To download dataset follow the instructions [here](). A nice script that simplif
 
 
 
+train and test split 80:20
+10000   2607
+
+
+
 ### mean and std of the data set, run
 ```
 python mean_std_dataset.py
@@ -36,21 +41,31 @@ python fine_grained.py
 
 To train a model using pytorch package:
 ```
-python main_fg_2.py --train \
-               --distributed \
-               --dataset=celeba \
-               --data_dir=[path to data source] \
-               --n_levels=3 \
-               --depth=32 \
-               --width=512 \
-               --batch_size=16 [this is per GPU]
+python main_fg_2.py --data_dir [path to data source] \
+               --epochs=100 \
+               --arch [model name eg. resnet18, resnet50,googlenet,squeezenet] \
+               --input_img_size= 128 \
+               --lr=0.1
+               --batch_size=64 [this is per GPU]
 ```
+To use the pretrained model
+To train a model using pytorch package:
+```
+python main_fg_2.py --pretrained \
+                --data_dir [path to data source] \
+               --epochs=100 \
+               --arch [model name eg. resnet18, resnet50,googlenet,squeezenet(from https://pytorch.org/docs/stable/torchvision/models.html)] \
+               --input_img_size= 128 \
+               --lr=0.1
+               --batch_size=64 [this is per GPU]
+```
+
+
 
 To evaluate model:
 ```
 python main_fg_2.py --evaluate \
                --restore_file=[path to .pt checkpoint] \
-               --dataset=celeba \
                --data_dir=[path to data source] \
                --[options of the saved model: n_levels, depth, width, batch_size]
 ```
@@ -65,7 +80,7 @@ python main_pl.py
 
 #### Datasets
 
-To download CelebA follow the instructions [here](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). A nice script that simplifies downloading and extracting can be found here: https://github.com/nperraud/download-celebA-HQ/
+
 
 
 #### References
