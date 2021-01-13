@@ -78,6 +78,4 @@ To download CelebA follow the instructions [here](http://mmlab.ie.cuhk.edu.hk/pr
 * matplotlib
 * tensorboard
 
-###### Some of the datasets further require:
-* pandas
-* sklearn
+
