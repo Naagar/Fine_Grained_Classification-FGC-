@@ -4,19 +4,14 @@
 ## Dataset
 To download dataset follow the instructions [here](). A nice script that simplifies downloading and extracting can be found here: 
 
-#### Results
-I trained two models:
+
 
 ### mean and std of the data set, run
 ```
 python mean_std_dataset.py
 
 ```
-### To run the base model, run
 
-```
-python fine_grained.py
-```
 
 
 ##### Model A attribute manipulation on in-distribution sample:
@@ -29,6 +24,15 @@ Embedding vectors were calculated for the first 30K training images and positive
 
 
 #### Usage
+
+#### Results
+I trained two models:
+
+### To run the base model, run
+
+```
+python fine_grained.py
+```
 
 To train a model using pytorch package:
 ```
