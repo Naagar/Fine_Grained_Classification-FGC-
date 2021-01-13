@@ -18,16 +18,6 @@ python mean_std_dataset.py
 ```
 
 
-
-##### Model A attribute manipulation on in-distribution sample:
-
-Embedding vectors were calculated for the first 30K training images and positive / negative attributes were averaged then subtracting. The resulting `dz` was ranged and applied on a test set image (middle image represents the unchanged / actual data point).
-
-
-
-##### Model A attribute manipulation on 'out-of-distribution' sample (i.e. me):
-
-
 #### Usage
 
 #### Results
@@ -76,10 +66,6 @@ python main_fg_2.py --evaluate \
 ```
 python main_pl.py 
 ```
-
-
-#### Datasets
-
 
 
 
