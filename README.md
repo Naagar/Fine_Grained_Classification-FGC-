@@ -12,7 +12,7 @@ To download dataset follow the instructions [here](). A nice script that simplif
 
 train and test split 80:20
 
-  10000   2607
+  10,000   2,607
 
 
 
