@@ -67,6 +67,13 @@ python main_fg_2.py --evaluate \
 python main_pl.py 
 ```
 
+## To run the tensorboard 
+
+```
+tensorboard --logdir=runs_FGC
+
+```
+
 
 
 #### References
@@ -82,5 +89,5 @@ python main_pl.py
 * numpy
 * matplotlib
 * tensorboard
-
+* cuda
 
