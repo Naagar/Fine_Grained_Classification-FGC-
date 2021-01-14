@@ -1,5 +1,9 @@
 # Fine Grained Classification
 
+## Project report 
+
+Click [here](https://www.overleaf.com/read/hybjpqspktym) or download the pdf(Fine Grained Classification Project Report.pdf) above
+
 
 ## Dataset
 To download dataset follow the instructions [here](). A nice script that simplifies downloading and extracting can be found here: 
