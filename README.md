@@ -16,6 +16,14 @@ train and test split 80:20
 
 
 
+| Loss | Accuracy |
+| --- | --- |
+| ![bnaf_u1](FGC_results/train_loss.png) | ![bnaf_8gaussians](FGC_results/val_loss.png) |
+| ![bnaf_u2](FGC_results/train_acc_top1.png) | ![bnaf_checkerboard](FGC_results/train_acc_top5.png) |
+| ![bnaf_u3](FGC_results/test_acc_top1.png) | ![bnaf_2spirals](FGC_results/val_loss.png) |
+| ![bnaf_u4](FGC_results/best_test_acc.png) | ![bnaf_rings](FGC_results/test_acc.png) |
+
+
 ### mean and std of the data set, run
 ```
 python mean_std_dataset.py
