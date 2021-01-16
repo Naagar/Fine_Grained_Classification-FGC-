@@ -8,6 +8,12 @@ Click [here](https://www.overleaf.com/read/hybjpqspktym) or download the pdf(Fin
 ## Dataset
 To download dataset follow the instructions [here](). A nice script that simplifies downloading and extracting can be found here: 
 
+  The dataset comprises images from the nut snacks category. Several aspects that makes recognition of this category particularly interesting are:
+
+      Distribution of samples per class is highly skewed
+      More often than not, the discerning feature is either localized text or dimensions of the object
+      Conditions under which the photo was captured may not always be optimal
+      Occlusion by other objects and promotional signs.
 
 
 train and test split 80:20
