@@ -2,15 +2,15 @@
 
 ## Project report 
 
-Click [here](https://www.overleaf.com/read/hybjpqspktym) or download the pdf (Fine Grained Classification Project Report.pdf) above
+Click [here](https://www.overleaf.com/read/hybjpqspktym) or download the pdf (Fine-Grained Classification Project Report.pdf) above
 
 
 ## Dataset
-To download dataset follow the instructions [here](). A nice script that simplifies downloading and extracting can be found here: 
+To download a dataset, follow the instructions [here](). An excellent script that simplifies downloading and extracting can be found here: 
 
-  The dataset comprises images from the nut snacks category. Several aspects that makes recognition of this category particularly interesting are:
+  The dataset comprises images from the nut snacks category. Several aspects that make recognition of this category exciting are:
 
-      Distribution of samples per class is highly skewed
+      The distribution of samples per class is highly skewed
       More often than not, the discerning feature is either localized text or dimensions of the object
       Conditions under which the photo was captured may not always be optimal
       Occlusion by other objects and promotional signs.
@@ -48,7 +48,7 @@ I trained two models:
 python fine_grained.py
 ```
 
-To train a model using pytorch package:
+To train a model using the PyTorch package:
 ```
 python main_fg_2.py --data_dir [path to data source] \
                --epochs=100 \
@@ -57,8 +57,8 @@ python main_fg_2.py --data_dir [path to data source] \
                --lr=0.1
                --batch_size=64 [this is per GPU]
 ```
-To use the pretrained model
-To train a model using pytorch package:
+To use the pre-trained model.
+To train a model using the PyTorch package:
 ```
 python main_fg_2.py --pretrained \
                 --data_dir [path to data source] \
@@ -86,7 +86,7 @@ python main_fg_2.py --evaluate \
 python main_pl.py 
 ```
 
-## To run the tensorboard 
+## To run the Tensorboard 
 
 ```
 tensorboard --logdir=runs_FGC
