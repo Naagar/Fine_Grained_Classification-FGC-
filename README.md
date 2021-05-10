@@ -2,7 +2,7 @@
 
 ## Project report 
 
-Click [here](https://www.overleaf.com/read/hybjpqspktym) or download the pdf (Fine-Grained Classification Project Report.pdf) above
+Click [here](https://www.overleaf.com/read/hybjpqspktym) or download the pdf (Fine-Grained Classification Project Report.pdf) above.
 
 
 ## Dataset
